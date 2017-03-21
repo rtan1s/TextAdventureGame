@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="TextAdventureGame.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TextAdventureGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-267,20,-351,20" Height="600" Width="1000">
+        <TextBlock HorizontalAlignment="Left" Margin="10,50,0,0" TextWrapping="Wrap" Text="Here go the story events" VerticalAlignment="Top" Height="270" Width="630"/>
+        <ListBox HorizontalAlignment="Left" Height="230" Margin="10,362,0,0" VerticalAlignment="Top" Width="627"/>
+        <ListBox x:Name="lbxInventory" HorizontalAlignment="Left" Height="270" Margin="692,50,0,0" VerticalAlignment="Top" Width="258"/>
+    </Grid>
+</Page>
