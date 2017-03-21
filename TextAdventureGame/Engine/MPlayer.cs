@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TAGEngine
 {
-    public class MPlayer
+    public class MPlayer : Character
     {
         public int intMPCMoney { get; set; }
         public int intMPCLevel { get; set; }

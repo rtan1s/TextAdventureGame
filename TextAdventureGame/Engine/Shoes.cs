@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace TAGEngine
 {
-    class Shoes
+    public class Shoes : Item
     {
+        public int intShoeID { get; set; }
         public string strShoeName { get; set; }
         public string strShoeGender { get; set; }
         public string strShoeType { get; set; }

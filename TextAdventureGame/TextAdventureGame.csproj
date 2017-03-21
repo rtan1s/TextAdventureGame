@@ -96,8 +96,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Engine\Character.cs" />
     <Compile Include="Engine\Clothes.cs" />
     <Compile Include="Engine\Inventory.cs" />
+    <Compile Include="Engine\Item.cs" />
     <Compile Include="Engine\Location.cs" />
     <Compile Include="Engine\MPlayer.cs" />
     <Compile Include="Engine\NPC.cs" />
