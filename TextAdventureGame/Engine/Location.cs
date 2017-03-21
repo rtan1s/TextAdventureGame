@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TextAdventureGame.Classes
+namespace TAGEngine
 {
-    class Location
+    public class Location
     {
     }
 }

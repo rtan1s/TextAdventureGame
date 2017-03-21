@@ -96,12 +96,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Classes\Clothes.cs" />
-    <Compile Include="Classes\Inventory.cs" />
-    <Compile Include="Classes\Location.cs" />
-    <Compile Include="Classes\MPlayer.cs" />
-    <Compile Include="Classes\NPC.cs" />
-    <Compile Include="Classes\Quest.cs" />
+    <Compile Include="Engine\Clothes.cs" />
+    <Compile Include="Engine\Inventory.cs" />
+    <Compile Include="Engine\Location.cs" />
+    <Compile Include="Engine\MPlayer.cs" />
+    <Compile Include="Engine\NPC.cs" />
+    <Compile Include="Engine\Quest.cs" />
+    <Compile Include="Engine\Shoes.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -132,6 +133,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
