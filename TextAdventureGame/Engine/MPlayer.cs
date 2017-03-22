@@ -8,13 +8,13 @@ namespace TAGEngine
 {
     public class MPlayer : Character
     {
-        public int intMPCMoney { get; set; }
-        public int intMPCLevel { get; set; }
-        public int intMPCExpPoints { get; set; }
-        public int intMPCEnergy { get; set; }
-        public int intMPCKnowledge { get; set; }
-        public int intMPCCunning { get; set; }
-        public int intMPCSelfDefense { get; set; }
-        
+        public int intMPCLikeness { get; set; }
+
+        public MPlayer(int id, string name, string gender, int age, string race, string appear, string background, int money, int level, int exppts, int energy, int knwldg, int cunning, int slfdefence, int attck, int likeness) : base(id, name, gender, age, race, appear, background, money, level, exppts, energy, knwldg, cunning, slfdefence, attck)
+        {
+            intMPCLikeness = likeness;
+        }
     }
+        
 }
+

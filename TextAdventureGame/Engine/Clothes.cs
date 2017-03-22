@@ -8,11 +8,17 @@ namespace TAGEngine
 {
     public class Clothes : Item
     {
-        public int intClothID { get; set; }
-        public string strClothName { get; set; }
         public string strClothType { get; set; } // casual, goingout, nightwear, business
         public string strClothBodyPart { get; set; } // upper, lower, all-body
         public string strClothGender { get; set; }
         public string strClothDescription { get; set; }
+
+        public Clothes(int id, string name, string namePlural, string clothtype, string clothbodypart, string clothgender, string clothdesc) : base(id, name, namePlural)
+        {
+            strClothType = clothtype;
+            strClothBodyPart= clothbodypart;
+            strClothGender = clothgender;
+            strClothDescription = clothdesc;
+        }
     }
 }
